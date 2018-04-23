@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from positive_or_negative import views as pon_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', pon_view.index),
 ]
