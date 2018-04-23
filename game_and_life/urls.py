@@ -19,5 +19,5 @@ from positive_or_negative import views as pon_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', pon_view.index),
+    url(r'^$', pon_view.home, name='home'),
 ]

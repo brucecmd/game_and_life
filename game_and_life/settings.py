@@ -25,7 +25,9 @@ SECRET_KEY = 'it!k250afoiz12tw!@=d(uv2w^ap4@n(o1r8!h1s2f2c_+#ac%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'brucecmd.pythonanywhere.com']
+ALLOWED_HOSTS = [
+		u'brucecmd.pythonanywhere.com',
+		'127.0.0.1',]
 
 
 # Application definition
